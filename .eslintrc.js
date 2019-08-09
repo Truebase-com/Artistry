@@ -207,7 +207,6 @@ module.exports = {
 			}
 		}],
 		"@typescript-eslint/no-misused-new": [1],
-		"@typescript-eslint/no-triple-slash-reference": [1],
 		"@typescript-eslint/prefer-namespace-keyword": [1],
 		"@typescript-eslint/type-annotation-spacing": [1, {
 			"before": false,
