@@ -43,7 +43,7 @@ This package contains:
 
 ## Formatting Guide
 
-Developing ESLint rules to enforce the entire gamut of formatting rules will be a long process. To see an example of how conforming code should be formatted, see [FormatByExample.ts](./FormatByExample.ts).
+Developing ESLint rules to enforce the entire gamut of formatting rules will be a long process. To see an example of how conforming code should be formatted, see [FormattingByExample.ts](./FormattingByExample.ts).
 
 ## Development
 
