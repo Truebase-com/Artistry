@@ -43,7 +43,7 @@ This package contains:
 
 ## Development
 
-This repository is under active development, as we're always adding new ESLint rules. Here are some helpful resources to get started building customer ESLint rules:
+This repository is under active development, as we're always adding new ESLint rules. Here are some helpful resources to get started building custom ESLint rules:
 
 https://www.kenneth-truyers.net/2016/05/27/writing-custom-eslint-rules/
 
