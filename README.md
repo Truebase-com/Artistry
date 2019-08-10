@@ -41,6 +41,10 @@ This package contains:
 - The `Open Sans Code` font, which is a derivation of the `Open Sans'.
 - ESLint rules
 
+## Formatting Guide
+
+Developing ESLint rules to enforce the entire gamut of formatting rules will be a long process. To see an example of how conforming code should be formatted, see [FormatByExample.ts](./FormatByExample.ts).
+
 ## Development
 
 This repository is under active development, as we're always adding new ESLint rules. Here are some helpful resources to get started building custom ESLint rules:
