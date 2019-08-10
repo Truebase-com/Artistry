@@ -16,7 +16,6 @@ module.exports = {
 		"getter-return": [1],
 		"no-async-promise-executor": [1],
 		"no-compare-neg-zero": [1],
-		"no-cond-assign": [1],
 		"no-duplicate-case": [1],
 		"no-empty": [1, { "allowEmptyCatch": true }],
 		"no-empty-character-class": [1],
@@ -39,7 +38,6 @@ module.exports = {
 		"eqeqeq": [1],
 		"guard-for-in": [1],
 		"no-case-declarations": [1],
-		"no-alert": [1],
 		"no-caller": [1],
 		"no-extend-native": [1],
 		"no-else-return": [1],
@@ -117,7 +115,6 @@ module.exports = {
 		"no-multi-assign": [1],
 		"no-multiple-empty-lines": [1],
 		"no-new-object": [1],
-		"no-restricted-syntax": [1, "ForInStatement"],
 		"no-unneeded-ternary": [1],
 		"no-whitespace-before-property": [1],
 		"object-curly-newline": ["error", {
@@ -152,10 +149,19 @@ module.exports = {
 			"after": true
 		}],
 		"template-tag-spacing": [1, "never"],
-		
 		"generator-star-spacing": [1, {
-			"before": true,
-			"after": false
+			"anonymous": {
+				"before": false,
+				"after": false
+			},
+			"named": {
+				"before": false,
+				"after": true
+			},
+			"method": {
+				"before": true,
+				"after": false
+			}
 		}],
 		"no-var": [1],
 		"prefer-arrow-callback": [1, {
