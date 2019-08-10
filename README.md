@@ -46,5 +46,7 @@ This package contains:
 This repository is under active development, as we're always adding new ESLint rules. Here are some helpful resources to get started building customer ESLint rules:
 
 https://www.kenneth-truyers.net/2016/05/27/writing-custom-eslint-rules/
+
 https://flexport.engineering/writing-custom-lint-rules-for-your-picky-developers-67732afa1803
+
 https://insideops.wordpress.com/2015/12/08/creating-custom-rules-for-eslint/
