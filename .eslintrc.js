@@ -21,7 +21,6 @@ module.exports = {
 		"no-empty-character-class": [1],
 		"no-ex-assign": [1],
 		"no-extra-boolean-cast": [1],
-		"no-extra-parens": [1],
 		"no-extra-semi": [1],
 		"no-invalid-regexp": [1],
 		"no-irregular-whitespace": [1],
@@ -181,6 +180,10 @@ module.exports = {
 		//# TypeScript-specific rules
 		
 		"@typescript-eslint/adjacent-overload-signatures": [1],
+		"@typescript-eslint/array-type": [1, {
+			"default": "array"
+		}],
+		"@typescript-await-thenable": [1],
 		"@typescript-eslint/ban-types": [1, {
 			"types": {
 				"Object": {
@@ -202,6 +205,10 @@ module.exports = {
 			}
 		}],
 		"@typescript-eslint/class-name-casing": [1],
+		"@typescript-eslint/func-call-spacing": [1],
+		"@typescript-eslint/generic-type-naming": [1, {
+			"default": "^T[A-Z][a-zA-Z]+$"
+		}],
 		"@typescript-eslint/member-delimiter-style": [1, {
 			"multiline": {
 				"delimiter": "semi",
@@ -212,8 +219,14 @@ module.exports = {
 				"requireLast": false
 			}
 		}],
+		"@typescript-eslint/no-extra-parens": [1],
+		"@typescript-eslint/no-for-in-array": [1],
+		"@typescript-eslint/no-inferrable-types": [1],
 		"@typescript-eslint/no-misused-new": [1],
+		"@typescript-eslint/no-unnecessary-qualifier": [1],
+		"@typescript-eslint/prefer-includes": [1],
 		"@typescript-eslint/prefer-namespace-keyword": [1],
+		"@typescript-eslint/prefer-readonly": [1],
 		"@typescript-eslint/type-annotation-spacing": [1, {
 			"before": false,
 			"after": true,
