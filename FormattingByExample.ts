@@ -167,6 +167,20 @@ namespace Namespace
 				case 1: return 1;
 				case 2: return 2;
 			}
+			
+			const array = [1, 2, 3, 4, 5];
+			
+			// We use a 2-statement style for loop instead of the more typical 3-statement
+			// style. Loops start at -1 and begin with incrementation rather than starting
+			// at 0 and incrementing in the final statement. For example:
+			for (let i = -1; ++i < array.length;)
+				array[i];
+			
+			// Iterating backwards (for the cases when the iteration could modify the array)
+			// is more natural with the 2-statement style. The "i-- >" syntax forms a nice little
+			// visual arrow indicating a regression to 0. For example:
+			for (let i = array.length; i-- > 0;)
+				array[i];
 		}
 		
 		/**
@@ -179,5 +193,13 @@ namespace Namespace
 		private positionX1Y2 = 0;
 		private positionX2Y1 = 0;
 		private positionX2Y2 = 0;
+		
+		/**
+		 * The absolute maximum line length is 120 characters. We also try to support
+		 * proportional fonts as well as monospace fonts. The maximum width for
+		 * proportional fonts is 40em. However, because of this discrepency, the general
+		 * rule is to just keep lines short. One idea per line. Don't play code golf–this
+		 * code is hard to read and hard to debug.
+		 */
 	}
 }
