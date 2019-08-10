@@ -1,6 +1,6 @@
 {
 	"name": "artistry-code-style",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "A VS Code hack project to facilitate the artistry style guide.",
 	"main": ".eslintrc.js",
 	"license": "MIT",
