@@ -207,7 +207,7 @@ module.exports = {
 		"@typescript-eslint/class-name-casing": [1],
 		"@typescript-eslint/func-call-spacing": [1],
 		"@typescript-eslint/generic-type-naming": [1, {
-			"default": "^T[A-Z][a-zA-Z]+$"
+			"default": "^([A-Z]|(T[0-9]+)|(T[A-Z][a-zA-Z0-9]*))$"
 		}],
 		"@typescript-eslint/member-delimiter-style": [1, {
 			"multiline": {
