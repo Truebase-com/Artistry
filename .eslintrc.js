@@ -11,7 +11,6 @@ module.exports = {
 		"@typescript-eslint/eslint-plugin",
 		"filenames"
 	],
-	
 	"rules": {
 		"getter-return": [1],
 		"no-async-promise-executor": [1],
@@ -236,10 +235,13 @@ module.exports = {
 					"after": true
 				}
 			}
-		}],
-		
-		//# File name plugin
-		
-		"filenames/match-regex": [1, "^(([A-Z])|([A-Z][a-z]+([A-Z][a-z]+)*))$"]
+		}]
+	},
+	"overrides": {
+		"files": ["*.ts"],
+		"rules": {
+			//# File name plugin
+			"filenames/match-regex": [1, "^(([A-Z])|([A-Z][a-z]+([A-Z][a-z]+)*))$"]
+		}
 	}
 }
