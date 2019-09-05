@@ -237,11 +237,11 @@ module.exports = {
 			}
 		}]
 	},
-	"overrides": {
+	"overrides": [{
 		"files": ["*.ts"],
 		"rules": {
 			//# File name plugin
-			"filenames/match-regex": [1, "^(([A-Z])|([A-Z][a-z]+([A-Z][a-z]+)*))$"]
+			"filenames/match-regex": [1, "^(!|([A-Z])|([A-Z][a-z]+([A-Z][a-z]+)*))$"]
 		}
-	}
+	}]
 }

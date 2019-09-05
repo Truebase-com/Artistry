@@ -1,13 +1,13 @@
 {
 	"name": "artistry-code-style",
-	"version": "0.0.3",
+	"version": "0.0.6",
 	"description": "A VS Code hack project to facilitate the artistry style guide.",
 	"main": ".eslintrc.js",
 	"license": "MIT",
 	"scripts": {
 		"compile": "tsc",
 		"lint": "eslint .",
-		"release": "npm publish --release --registry=https://registry.npmjs.org/"
+		"release": "npm publish --release --registry=https://registry.npmjs.org/ --tag latest"
 	},
 	"dependencies": {
 		"eslint-plugin-filenames": "^1.3.2"
