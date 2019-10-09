@@ -18,32 +18,35 @@
 	background-size: 100% 100%;
 }
 
-.view-line[data-block-comment]
+
+
+
+.vs-light .view-line[data-block-comment]
 {
 	background-image: linear-gradient(
 		hsla(215, 80%, 50%, 0.16),
 		hsla(215, 80%, 50%, 0.16));
 }
 
-.view-line[data-block-comment] SPAN
+.vs-light .view-line[data-block-comment] SPAN
 {
 	text-shadow: 1px 1px 1px white;
 }
 
-.view-line[data-section-comment]
+.vs-light .view-line[data-section-comment]
 {
 	background-image: linear-gradient(
 		hsla(215, 55%, 45%, 0.7),
 		hsla(215, 55%, 45%, 0.7));
 }
 
-.view-line[data-section-comment] SPAN
+.vs-light .view-line[data-section-comment] SPAN
 {
 	color: rgba(255, 255, 255, 1) !important;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
-.view-line[data-line-comment]
+.vs-light .view-line[data-line-comment]
 {
 	text-shadow: 1px 1px 1px white;
 	background-image: linear-gradient(
@@ -51,37 +54,109 @@
 		hsla(215, 80%, 50%, 0.06));
 }
 
-.view-line[data-line-comment] SPAN
+.vs-light .view-line[data-line-comment] SPAN
 {
 	color: hsl(215, 75%, 80%) !important;
 }
 
-.view-line[data-dead-comment] SPAN
+.vs-light .view-line[data-dead-comment] SPAN
 {
 	color: rgba(0, 0, 0, 0.5) !important;
 	font-style: italic;
 }
 
-.view-line[data-dead-comment] SPAN SPAN
+.vs-light .view-line[data-dead-comment] SPAN SPAN
 {
 	text-decoration: rgba(0, 0, 0, 0.15) line-through;
 }
 
-.view-line[data-dead-comment] SPAN.mtk1:first-child
+.vs-light .view-line[data-dead-comment] SPAN.mtk1:first-child
 {
 	text-decoration: none;
 }
 
-.view-line[data-attention-comment]
+.vs-light .view-line[data-attention-comment]
 {
 	background-image: linear-gradient(
 		hsla(345, 80%, 40%, 0.40),
 		hsla(345, 80%, 40%, 0.40));
 }
 
-.view-line[data-attention-comment] SPAN
+.vs-light .view-line[data-attention-comment] SPAN
 {
 	color: white !important;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
+
+
+
+
+.vs-dark .view-line[data-block-comment]
+{
+	background-image: linear-gradient(
+		hsla(215, 60%, 40%, 0.7),
+		hsla(215, 60%, 40%, 0.7));
+}
+
+.vs-dark .view-line[data-block-comment] SPAN
+{
+	font-weight: 900 !important;
+	text-shadow: 1px 1px 1px black;
+}
+
+.vs-dark .view-line[data-section-comment]
+{
+	background-image: linear-gradient(
+		hsla(215, 60%, 40%, 0.7),
+		hsla(215, 60%, 40%, 0.7));
+}
+
+.vs-dark .view-line[data-section-comment] SPAN
+{
+	color: rgba(255, 255, 255, 1) !important;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.vs-dark .view-line[data-line-comment]
+{
+	text-shadow: 1px 1px 1px black;
+	background-image: linear-gradient(
+		hsla(215, 60%, 50%, 0.2),
+		hsla(215, 60%, 50%, 0.2));
+}
+
+.vs-dark .view-line[data-line-comment] SPAN
+{
+	color: hsl(215, 18%, 52%) !important;
+}
+
+.vs-dark .view-line[data-dead-comment] SPAN
+{
+	color: rgba(255, 255, 255, 0.5) !important;
+	font-style: italic;
+}
+
+.vs-dark .view-line[data-dead-comment] SPAN SPAN
+{
+	text-decoration: rgba(255, 255, 255, 0.15) line-through;
+}
+
+.vs-dark .view-line[data-dead-comment] SPAN.mtk1:first-child
+{
+	text-decoration: none;
+}
+
+.vs-dark .view-line[data-attention-comment]
+{
+	background-image: linear-gradient(
+		hsla(345, 80%, 40%, 0.40),
+		hsla(345, 80%, 40%, 0.40));
+}
+
+.vs-dark .view-line[data-attention-comment] SPAN
+{
+	color: white !important;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
 
