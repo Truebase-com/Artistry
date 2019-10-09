@@ -16,6 +16,9 @@
 			"esnext",
 		]
 	},
+	"exclude": [
+		"./FormatByExample.ts"
+	],
 	"include": [
 		"**/*.ts"
 	]

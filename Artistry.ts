@@ -27,7 +27,8 @@ function initialize()
 	const viewLines = document.getElementsByClassName(cssClasses.container);
 	if (viewLines.length === 0)
 		return void setTimeout(() => initialize(), 10);
-	
+		
+	console.log("ARTISTRY: Initializing...");
 	globalSettings.spaceWidth = calculateSpaceWidth();
 	
 	for (let i = -1; ++i < viewLines.length;)
@@ -39,14 +40,18 @@ function initialize()
 	
 	setTimeout(() =>
 	{
+		console.log("ARTISTRY: Initialized");
+		
 		document.addEventListener("animationstart", evt =>
 		{
 			if (evt.animationName === "view-line-inserted")
+			{
 				if (evt.target instanceof HTMLElement)
 				{
 					maybeConvertLine(evt.target);
 					clearClosingCommentQueue();
 				}
+			}
 		});
 	});
 }
